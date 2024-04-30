@@ -1,14 +1,14 @@
 name: python script workflow
 
- on:
-   push:
-     branches:
-        - main 
+on:
+  push:
+    branches:
+       - main 
  
- jobs:
-   run_python_script:
-   name: run hello.py
-   runs-on: ubuntu-latest
+jobs:
+  run_python_script:
+  name: run hello.py
+  runs-on: ubuntu-latest
 
 steps:
  - name: checoutrepository
