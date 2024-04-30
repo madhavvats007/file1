@@ -1,9 +1,9 @@
 name: python script workflow
 
  on:
-  push:
-   branches:
-      - main 
+   push:
+     branches:
+        - main 
  
  jobs:
    run_python_script:
