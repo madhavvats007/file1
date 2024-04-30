@@ -7,17 +7,17 @@ on:
  
 jobs:
   run_python_script:
-  name: Run hello.py
-  runs-on: ubuntu-latest
+   name: Run hello.py
+   runs-on: ubuntu-latest
 
-steps:
-  - name: checoutrepository
-    uses: actions/checkout@v2
+   steps:
+    - name: checoutrepository
+      uses: actions/checkout@v2
 
-  - name: set up python
-    uses: actions/setup-python@v2
-    with:
-      python-version: '3.12'# use the python version you need
+    - name: set up python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12'# use the python version you need
  
-  - name: run jesttestingcode.py
-    run: pytho justtesting.py
+    - name: run jesttestingcode.py
+      run: pytho justtesting.py
